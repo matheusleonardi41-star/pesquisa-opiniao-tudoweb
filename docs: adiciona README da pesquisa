@@ -1,53 +1,30 @@
-# 📊 Pesquisa de Opinião — TudoWeb
+excelente = 0
+bom = 0
+ruim = 0
 
-## 📖 Sobre o projeto
+for i in range(10):
+    print("\nEntrevistado", i + 1)
 
-Este projeto foi desenvolvido em Python para realizar uma pesquisa de satisfação com clientes da empresa fictícia TudoWeb.
+    nome = input("Digite o nome: ")
+    idade = int(input("Digite a idade: "))
 
-O programa coleta informações de 50 entrevistados, incluindo nome, idade e opinião sobre o atendimento prestado.
+    print("Como você avalia o atendimento?")
+    print("1 - EXCELENTE")
+    print("2 - BOM")
+    print("3 - RUIM")
 
-## 🎯 Objetivo
+    opiniao = int(input("Digite sua opção: "))
 
-Praticar lógica de programação, estruturas de repetição e estruturas de decisão, utilizando Python.
+    if opiniao == 1:
+        excelente += 1
+    elif opiniao == 2:
+        bom += 1
+    elif opiniao == 3:
+        ruim += 1
+    else:
+        print("Opção inválida.")
 
-## 🗳️ Opções de resposta
-
-* 1 — EXCELENTE
-* 2 — BOM
-* 3 — RUIM
-
-## ⚙️ Funcionamento
-
-O programa utiliza uma estrutura `for` para realizar a pesquisa com 50 entrevistados.
-
-As respostas são verificadas com `if`, `elif` e `else`, permitindo contabilizar as opiniões.
-
-Ao final, são exibidas as quantidades de respostas EXCELENTE, BOM e RUIM.
-
-## 💻 Tecnologias utilizadas
-
-* 🐍 Python
-* 🐙 GitHub
-
-## 🧪 Teste do programa
-
-O programa deve ser validado com 10 entrevistados, conforme solicitado na atividade.
-
-## 🚀 Como executar
-
-1. Instale o Python.
-2. Baixe ou clone este repositório.
-3. Abra o terminal na pasta do projeto.
-4. Execute:
-
-```bash
-python app.py
-```
-
-5. Informe os dados solicitados para cada entrevistado.
-
-## 👨‍💻 Autor
-
-Matheus Leonardi
-
-Atividade de iniciação em tecnologia.
+print("\n===== RESULTADO DA PESQUISA =====")
+print("Quantidade de respostas EXCELENTE:", excelente)
+print("Quantidade de respostas BOM:", bom)
+print("Quantidade de respostas RUIM:", ruim)
