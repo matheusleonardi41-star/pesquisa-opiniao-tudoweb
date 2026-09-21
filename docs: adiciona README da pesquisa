@@ -1,0 +1,53 @@
+# 📊 Pesquisa de Opinião — TudoWeb
+
+## 📖 Sobre o projeto
+
+Este projeto foi desenvolvido em Python para realizar uma pesquisa de satisfação com clientes da empresa fictícia TudoWeb.
+
+O programa coleta informações de 50 entrevistados, incluindo nome, idade e opinião sobre o atendimento prestado.
+
+## 🎯 Objetivo
+
+Praticar lógica de programação, estruturas de repetição e estruturas de decisão, utilizando Python.
+
+## 🗳️ Opções de resposta
+
+* 1 — EXCELENTE
+* 2 — BOM
+* 3 — RUIM
+
+## ⚙️ Funcionamento
+
+O programa utiliza uma estrutura `for` para realizar a pesquisa com 50 entrevistados.
+
+As respostas são verificadas com `if`, `elif` e `else`, permitindo contabilizar as opiniões.
+
+Ao final, são exibidas as quantidades de respostas EXCELENTE, BOM e RUIM.
+
+## 💻 Tecnologias utilizadas
+
+* 🐍 Python
+* 🐙 GitHub
+
+## 🧪 Teste do programa
+
+O programa deve ser validado com 10 entrevistados, conforme solicitado na atividade.
+
+## 🚀 Como executar
+
+1. Instale o Python.
+2. Baixe ou clone este repositório.
+3. Abra o terminal na pasta do projeto.
+4. Execute:
+
+```bash
+python app.py
+```
+
+5. Informe os dados solicitados para cada entrevistado.
+
+## 👨‍💻 Autor
+
+Matheus Leonardi
+
+Atividade de iniciação em tecnologia.
